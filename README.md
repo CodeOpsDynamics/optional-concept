@@ -1,12 +1,11 @@
-# dynamic_block_concept
+# optional_feature_concept
 
-dynamic block feature has been applied on subnet block
+optional feature has been applied on subnet block
 
-dynamic block concept can be applied only on blocks which have "block support" feature enabled , it will be mentioned on terraform registry page.
+optional concept can be applied only on blocks which have "block support" feature enabled , it will be mentioned on terraform registry page.
 
-It helps in defining the child block variable separatly
+It helps in selecting the child block as per the requirement.
 
-Herein, code has been constructed in such a way that all subnets will be inside required vnets.Separate module is not required here.
-
+Herein, code has been constructed in such a way that any subnet can be omitted or added as per the need of hour .
 
 Keep Learning !
