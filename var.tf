@@ -12,14 +12,14 @@ variable "vn" {
 }
 
 #for making entire subnet value optional
-variable "vn" {
-    type = map(object({
-        name = string,
-        as = any,
-        tg = string,
-        subnets = optional(map(object({
-            sn = string,
-            ap = any
-    })))
-}))
-}
+#variable "vn" {
+#    type = map(object({
+#        name = string,
+#        as = any,
+#        tg = string,
+#        subnets = optional(map(object({
+#            sn = string,
+#            ap = any
+#    })))
+#}))
+#}
