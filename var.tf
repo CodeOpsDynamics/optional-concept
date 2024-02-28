@@ -1,5 +1,6 @@
 #for making attributes of subnet value optional
 variable "vn" {
+    default = null
     type = map(object({
         name = string,
         as = any,
@@ -13,6 +14,7 @@ variable "vn" {
 
 #for making entire subnet value optional
 #variable "vn" {
+#    default = null
 #    type = map(object({
 #        name = string,
 #        as = any,
